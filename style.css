@@ -1,0 +1,95 @@
+/* font-family: 'Poppins', sans-serif; */
+
+body,
+h2,
+p {
+  margin: 0;
+}
+
+#free-trial-container {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/bg-intro-mobile.png");
+  min-height: 100vh;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#description-container {
+  color: white;
+  text-align: center;
+}
+
+#description-container p {
+  margin: 10px 0 20px 0;
+}
+
+#call-to-action {
+  text-align: center;
+  padding: 15px 40px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 8px 0 0px rgba(0, 0, 0, 0.15);
+}
+
+#call-to-action span {
+  font-weight: 700;
+}
+
+#form-container form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 8px 0 0px rgba(0, 0, 0, 0.15);
+}
+
+#form-container form input,
+#form-container button {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid hsl(246, 25%, 77%);
+  font-weight: 700;
+}
+
+#form-container button {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  box-shadow: 0 4px 0 0px hsl(154, 57%, 45%);
+  border: none;
+}
+
+#terms {
+  color: hsl(246, 25%, 77%);
+  text-align: center;
+}
+
+#terms a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (min-width: 768px) {
+  #free-trial-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #description-container,
+  #form-container {
+    flex: 1;
+    margin: 0 40px;
+  }
+
+  #description-container {
+    text-align: left;
+  }
+
+  #description-container h2 {
+    font-size: 36px;
+  }
+}
